@@ -9,7 +9,7 @@ It intends to consume REST API's from popular social networks and sites such as 
 Thoughts on Swift
 =================
 
-Feels great so far. There are a lot of characteristics present in other modern programming languages, in particular Ruby. I like the sintax. No more pointers, no more header files, you don't have to explicitly declare variable types, no more semi-colons at the end of each line (well, these are optional now, but I think that the code looks cleaner without them), no more funky square brackets, no more NS prefixes on every object, no more Mutable types such as NSMutableDictionary and NSMutableArray (you can set a variable to mutable using 'var' and to immutable/constant 'let').
+Feels great so far. There are a lot of characteristics present in other modern programming languages, in particular Ruby. I like the sintax. No more pointers, no more header files, you don't have to explicitly declare variable types, no more semi-colons at the end of each line (well, these are optional now, but I think that the code looks cleaner without them), no more funky square brackets, no more NS prefixes on every object, no more Mutable types such as NSMutableDictionary and NSMutableArray (you can set a variable to mutable using 'var' and to immutable/constant using 'let').
 
 Tuples are a great addition. Generic arguments and parameters can be passed to functions. PLAYGROUND IS AWESOME!
 
