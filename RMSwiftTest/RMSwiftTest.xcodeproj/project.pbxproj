@@ -11,8 +11,7 @@
 		E52115E319401FD700258CEA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E52115E219401FD700258CEA /* Images.xcassets */; };
 		E52115EF19401FD700258CEA /* RMSwiftTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52115EE19401FD700258CEA /* RMSwiftTestTests.swift */; };
 		E52115F919401FF400258CEA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52115F819401FF400258CEA /* MainViewController.swift */; };
-		E52115FB19402A9D00258CEA /* RedditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52115FA19402A9D00258CEA /* RedditViewController.swift */; };
-		E52115FD194031E100258CEA /* RedditViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E52115FC194031E000258CEA /* RedditViewController.xib */; };
+		E5A8E525194045EB0037F34C /* RedditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52115FA19402A9D00258CEA /* RedditViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +34,6 @@
 		E52115EE19401FD700258CEA /* RMSwiftTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMSwiftTestTests.swift; sourceTree = "<group>"; };
 		E52115F819401FF400258CEA /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		E52115FA19402A9D00258CEA /* RedditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedditViewController.swift; sourceTree = "<group>"; };
-		E52115FC194031E000258CEA /* RedditViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RedditViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +78,6 @@
 				E52115E019401FD700258CEA /* AppDelegate.swift */,
 				E52115F819401FF400258CEA /* MainViewController.swift */,
 				E52115FA19402A9D00258CEA /* RedditViewController.swift */,
-				E52115FC194031E000258CEA /* RedditViewController.xib */,
 				E52115E219401FD700258CEA /* Images.xcassets */,
 				E52115DE19401FD700258CEA /* Supporting Files */,
 			);
@@ -191,7 +188,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E52115FD194031E100258CEA /* RedditViewController.xib in Resources */,
 				E52115E319401FD700258CEA /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,7 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E52115FB19402A9D00258CEA /* RedditViewController.swift in Sources */,
+				E5A8E525194045EB0037F34C /* RedditViewController.swift in Sources */,
 				E52115E119401FD700258CEA /* AppDelegate.swift in Sources */,
 				E52115F919401FF400258CEA /* MainViewController.swift in Sources */,
 			);

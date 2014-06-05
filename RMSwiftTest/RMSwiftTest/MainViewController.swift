@@ -52,7 +52,20 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     func tableView(tableView: UITableView!, didSelectRowAtIndexPath indexPath: NSIndexPath!) {
     
+            tableView.deselectRowAtIndexPath(indexPath, animated:true)
+        
+        println("did select")
+            
+//            let nextView = self.storyboard.instantiateViewControllerWithIdentifier("SecondSwiftView") as SecondSwiftViewController
+//            nextView.titleInteger = indexPath.row
+//            self.navigationController.pushViewController(nextView, animated: true)
+
+        let navigation :UINavigationController = UINavigationController()
+        
         let redditVC: UIViewController! = UIViewController(nibName:"RedditViewController", bundle: nil)
+        navigation.pushViewController(redditVC, animated:true)
+        
+        
         self.presentViewController(redditVC, animated:true, completion:nil)
         
     }

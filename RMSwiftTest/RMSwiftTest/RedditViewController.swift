@@ -15,8 +15,9 @@ import UIKit
         var redditThreadsData: NSArray = NSArray()
         var data: NSMutableData!
         
-        init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
-            super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
+         init(coder aDecoder: NSCoder!)
+        {
+            super.init(coder: aDecoder)
         }
         
         override func viewDidLoad() {
