@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  SecondViewController.swift
 //  RMSwiftTest
 //
 //  Created by Rodrigo Mulkey on 6/4/14.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class RedditViewController: UIViewController {
                             
     override func viewDidLoad() {
         super.viewDidLoad()
