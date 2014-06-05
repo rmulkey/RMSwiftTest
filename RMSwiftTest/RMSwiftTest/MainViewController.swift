@@ -40,7 +40,7 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     
     func tableView(tableView: UITableView!, numberOfRowsInSection section: Int) -> Int{
-        //println("Menu items count: " + self.menuItems.count)
+        println("Menu items count: \(self.menuItems.count)")
         return self.menuItems.count
     }
     
@@ -52,16 +52,8 @@ class MainViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     func tableView(tableView: UITableView!, didSelectRowAtIndexPath indexPath: NSIndexPath!) {
     
-        let redditVC: UIViewController = UIViewController(nibName:"RedditViewController", bundle: nil)
+        let redditVC: UIViewController! = UIViewController(nibName:"RedditViewController", bundle: nil)
         self.presentViewController(redditVC, animated:true, completion:nil)
-        
-               
-        
-        //self.presentModalViewController(redditVC.self, animated: true)
-        
-//        let storyboard : UIStoryboard = UIStoryboard(name: "myTabBarName", bundle: nil);
-//        let vc : UIViewController = storyboard.instantiateViewControllerWithIdentifier("myVCID") as UIViewController;
-//        self.presentViewController(vc, animated: true, completion: nil);
         
     }
     

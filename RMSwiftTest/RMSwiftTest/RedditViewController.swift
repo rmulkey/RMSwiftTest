@@ -9,6 +9,7 @@
 import UIKit
     
     class RedditViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, NSURLConnectionDelegate, NSURLConnectionDataDelegate {
+        
         var tableView: UITableView!
         var redditThreads = NSString[]()
         var redditThreadsData: NSArray = NSArray()
