@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E539CD5B19401AF500A4A400"
+               BlueprintIdentifier = "E52115DA19401FD700258CEA"
                BuildableName = "RMSwiftTest.app"
                BlueprintName = "RMSwiftTest"
                ReferencedContainer = "container:RMSwiftTest.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E539CD6D19401AF500A4A400"
+               BlueprintIdentifier = "E52115E719401FD700258CEA"
                BuildableName = "RMSwiftTestTests.xctest"
                BlueprintName = "RMSwiftTestTests"
                ReferencedContainer = "container:RMSwiftTest.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E539CD5B19401AF500A4A400"
+            BlueprintIdentifier = "E52115DA19401FD700258CEA"
             BuildableName = "RMSwiftTest.app"
             BlueprintName = "RMSwiftTest"
             ReferencedContainer = "container:RMSwiftTest.xcodeproj">
@@ -61,7 +61,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E539CD5B19401AF500A4A400"
+            BlueprintIdentifier = "E52115DA19401FD700258CEA"
             BuildableName = "RMSwiftTest.app"
             BlueprintName = "RMSwiftTest"
             ReferencedContainer = "container:RMSwiftTest.xcodeproj">
@@ -79,7 +79,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E539CD5B19401AF500A4A400"
+            BlueprintIdentifier = "E52115DA19401FD700258CEA"
             BuildableName = "RMSwiftTest.app"
             BlueprintName = "RMSwiftTest"
             ReferencedContainer = "container:RMSwiftTest.xcodeproj">
