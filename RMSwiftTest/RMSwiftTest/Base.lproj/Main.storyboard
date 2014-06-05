@@ -20,8 +20,8 @@
                                 <rect key="frame" x="0.0" y="0.0" width="480" height="44"/>
                                 <items/>
                             </toolbar>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" text="Twitter Feed" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="KQZ-1w-vlD">
-                                <rect key="frame" x="140" y="74" width="199" height="42"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" text="Twitter Feed" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="KQZ-1w-vlD">
+                                <rect key="frame" x="134" y="69" width="199" height="42"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -30,11 +30,10 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="6BV-lF-sBN"/>
                             <constraint firstItem="iQr-d4-Ar2" firstAttribute="top" secondItem="tsR-hK-woN" secondAttribute="top" id="8qp-4k-ywN"/>
                             <constraint firstItem="iQr-d4-Ar2" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leading" id="9hT-Pl-9vo"/>
                             <constraint firstItem="iQr-d4-Ar2" firstAttribute="trailing" secondItem="tsR-hK-woN" secondAttribute="trailing" id="GCv-eZ-Lr1"/>
-                            <constraint firstAttribute="centerY" secondItem="KQZ-1w-vlD" secondAttribute="centerY" id="exm-UA-ej4"/>
+                            <constraint firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="lDk-Ey-5JW"/>
                         </constraints>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
@@ -62,8 +61,8 @@
                                     <navigationItem id="WaP-O7-m87"/>
                                 </items>
                             </navigationBar>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" text="Reddit Feed" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="zEq-FU-wV5">
-                                <rect key="frame" x="128" y="62" width="197" height="42"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" text="Reddit Feed" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="zEq-FU-wV5">
+                                <rect key="frame" x="142" y="77" width="197" height="42"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -75,8 +74,7 @@
                             <constraint firstItem="ej5-n5-O85" firstAttribute="trailing" secondItem="QS5-Rx-YEW" secondAttribute="trailing" id="C9p-N0-R4o"/>
                             <constraint firstItem="ej5-n5-O85" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leading" id="ZQW-8Y-bT4"/>
                             <constraint firstItem="ej5-n5-O85" firstAttribute="top" secondItem="QS5-Rx-YEW" secondAttribute="top" id="dYc-7R-70W"/>
-                            <constraint firstAttribute="centerX" secondItem="zEq-FU-wV5" secondAttribute="centerX" id="qqM-NS-xev"/>
-                            <constraint firstAttribute="centerY" secondItem="zEq-FU-wV5" secondAttribute="centerY" id="qzY-Ky-pLD"/>
+                            <constraint firstAttribute="centerX" secondItem="zEq-FU-wV5" secondAttribute="centerX" id="fBk-HI-HDZ"/>
                         </constraints>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
@@ -99,16 +97,18 @@
                     <connections>
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                        <segue destination="qAr-0F-5Kw" kind="relationship" relationship="viewControllers" id="rqn-09-NXV"/>
+                        <segue destination="KW7-KL-vgS" kind="relationship" relationship="viewControllers" id="dEI-c2-kHu"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2283" y="965"/>
         </scene>
-        <!--Second View Controller - Reddit-->
+        <!--Third View Controller - RSS-->
         <scene sceneID="nB0-Ft-tFZ">
             <objects>
-                <viewController id="qAr-0F-5Kw" customClass="SecondViewController" customModule="RMSwiftTest" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="qAr-0F-5Kw" userLabel="Third View Controller - RSS" customClass="SecondViewController" customModule="RMSwiftTest" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Yfz-LX-gWj"/>
                         <viewControllerLayoutGuide type="bottom" id="dFg-8L-0JJ"/>
@@ -123,7 +123,7 @@
                                     <navigationItem id="pO4-Iw-pkW"/>
                                 </items>
                             </navigationBar>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" text="RSS Feed" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="g8M-rV-xQQ">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" text="RSS Feed" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="g8M-rV-xQQ">
                                 <rect key="frame" x="128" y="62" width="167" height="42"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
@@ -134,23 +134,22 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="2KR-ll-sxW" firstAttribute="leading" secondItem="9cb-At-e3Q" secondAttribute="leading" id="0HI-S1-iAh"/>
+                            <constraint firstAttribute="centerX" secondItem="g8M-rV-xQQ" secondAttribute="centerX" id="5rr-fX-WuN"/>
                             <constraint firstItem="2KR-ll-sxW" firstAttribute="top" secondItem="9cb-At-e3Q" secondAttribute="top" id="SV2-W4-6Yw"/>
-                            <constraint firstAttribute="centerY" secondItem="g8M-rV-xQQ" secondAttribute="centerY" id="X8f-Aq-ZQ8"/>
-                            <constraint firstAttribute="centerX" secondItem="g8M-rV-xQQ" secondAttribute="centerX" id="l9W-7h-rfm"/>
                             <constraint firstItem="2KR-ll-sxW" firstAttribute="trailing" secondItem="9cb-At-e3Q" secondAttribute="trailing" id="n5R-CS-UT7"/>
                         </constraints>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Reddit" image="second" id="lci-Zh-ykf"/>
+                    <tabBarItem key="tabBarItem" title="RSS" image="second" id="lci-Zh-ykf"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J2h-jH-XuL" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3050" y="1885"/>
         </scene>
-        <!--Second View Controller - Reddit-->
+        <!--Fourth View Controller - Flickr-->
         <scene sceneID="cdy-8e-RnF">
             <objects>
-                <viewController id="KW7-KL-vgS" customClass="SecondViewController" customModule="RMSwiftTest" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="KW7-KL-vgS" userLabel="Fourth View Controller - Flickr" customClass="SecondViewController" customModule="RMSwiftTest" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="gz2-kP-NB7"/>
                         <viewControllerLayoutGuide type="bottom" id="htc-wg-FPg"/>
@@ -165,7 +164,7 @@
                                     <navigationItem id="LUV-J2-F7I"/>
                                 </items>
                             </navigationBar>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" text="Flickr Photos" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="owu-e5-lN0">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" text="Flickr Photos" textAlignment="center" lineBreakMode="tailTruncation" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="owu-e5-lN0">
                                 <rect key="frame" x="128" y="62" width="209" height="42"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="36"/>
@@ -179,15 +178,14 @@
                             <constraint firstItem="f5p-hV-R6J" firstAttribute="top" secondItem="PRI-hW-AtX" secondAttribute="top" id="PlD-lO-YOP"/>
                             <constraint firstAttribute="centerX" secondItem="owu-e5-lN0" secondAttribute="centerX" id="Qgi-08-e8D"/>
                             <constraint firstItem="f5p-hV-R6J" firstAttribute="leading" secondItem="PRI-hW-AtX" secondAttribute="leading" id="UKV-Bw-Sdg"/>
-                            <constraint firstAttribute="centerY" secondItem="owu-e5-lN0" secondAttribute="centerY" id="sbI-fm-Wua"/>
                         </constraints>
                         <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Reddit" image="second" id="JNV-eq-xLm"/>
+                    <tabBarItem key="tabBarItem" title="Flickr" image="second" id="JNV-eq-xLm"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sRf-ri-vkE" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3050" y="2479"/>
+            <point key="canvasLocation" x="2344" y="1767"/>
         </scene>
     </scenes>
     <resources>
